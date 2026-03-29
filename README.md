@@ -54,6 +54,8 @@ sudo rmmod xpad
 sudo modprobe ff_memless
 # Load the gamepad driver
 sudo insmod 8bd-u2cw.ko
+# Load SDL configuration
+source sdl_profile_export.sh
 ```
 
 Try the gamepad in your favorite game or test tool. Reconnect your gamepad if it does not work on the first try.
@@ -65,6 +67,12 @@ This installs the driver for your **current** kernel.
 
 ```bash
 sudo make install
+```
+
+SDL based games may have a wrong gamepad mapping included. Add the correct mapping to your profile.
+
+```bash
+cat sdl_profile_export.sh >> ~/.profile
 ```
 
 You are done - have fun!

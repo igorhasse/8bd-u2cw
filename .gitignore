@@ -13,6 +13,8 @@ NOGIT__*
 .8bd-u2cw.mod.o.cmd
 8bd-u2cw.o
 .8bd-u2cw.o.cmd
+.module-common.o
+..module-common.o.cmd
 
 Module.symvers
 modules.order
