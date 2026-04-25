@@ -2,6 +2,9 @@
 
 NOGIT__*
 
+# Worktrees for parallel branch development
+.worktrees/
+
 # We should not ship the build results
 
 8bd-u2cw.ko
